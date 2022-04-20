@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud2020" />
+        <module name="cloudproviderpayment8001" />
+        <module name="cloudapicommons" />
       </profile>
     </annotationProcessing>
   </component>
