@@ -16,6 +16,25 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Payment implements Serializable {
+    /**
+     * 数据库对应id类型为 bigint
+     * */
     private Long id;
     private String serial;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getSerial() {
+        return serial;
+    }
+
+    public void setSerial(String serial) {
+        this.serial = serial;
+    }
 }
