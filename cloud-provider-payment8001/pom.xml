@@ -12,12 +12,12 @@
     <artifactId>cloud-provider-payment8001</artifactId>
 
     <dependencies>
-        <!--        &lt;!&ndash; 服务注册中心的客户端端 eureka-client &ndash;&gt;-->
-        <!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka-server &ndash;&gt;-->
-        <!--        <dependency>-->
-        <!--            <groupId>org.springframework.cloud</groupId>-->
-        <!--            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>-->
-        <!--        </dependency>-->
+        <!-- 服务注册中心的客户端端 eureka-client -->
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka-server -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
 
         <!-- 引入自己定义的api通用包 -->
         <dependency>
