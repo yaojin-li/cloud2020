@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a73d5acf-76eb-47a3-931d-d66ea12133cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/myrule/MySelfRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/CloudConsumerOrder80Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/lb/MyLB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/lb/MyLoadBalancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/CloudProviderPayment8001Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/CloudProviderPayment8001Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a73d5acf-76eb-47a3-931d-d66ea12133cc" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +45,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-eureka-server7002/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -69,11 +56,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\IdeaProject\cloud2020\cloud-eureka-server7002\src\main\java" />
+      <recent name="E:\workspace\IdeaProject\cloud2020\cloud-eureka-server7001\src\main\java" />
+      <recent name="E:\workspace\IdeaProject\cloud2020\cloud-eureka-server7001\src\main\resources" />
       <recent name="E:\workspace\IdeaProject\cloud2020\cloud-consumer-order80\src\main\java" />
       <recent name="E:\workspace\IdeaProject\cloud2020\cloud-consumer-order80\src\main\resources" />
-      <recent name="E:\workspace\IdeaProject\cloud2020\cloud-api-commons\src\main\java" />
-      <recent name="E:\workspace\IdeaProject\cloud2020\cloud-provider-payment8001\src\main\resources" />
-      <recent name="E:\workspace\IdeaProject\cloud2020\cloud-provider-payment8001\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -96,6 +83,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CloudEurekaServer7001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudeurekaserver7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.CloudEurekaServer7001Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudEurekaServer7002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudeurekaserver7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.CloudEurekaServer7002Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CloudProviderPayment8001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloudproviderpayment8001" />
       <extension name="coverage">
@@ -111,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.CloudEurekaServer7001Application" />
         <item itemvalue="Spring Boot.CloudProviderPayment8001Application" />
       </list>
     </recent_temporary>
@@ -127,7 +135,7 @@
       <updated>1650421708237</updated>
       <workItem from="1650421709845" duration="5393000" />
       <workItem from="1650457064781" duration="1079000" />
-      <workItem from="1650458512892" duration="5648000" />
+      <workItem from="1650458512892" duration="9975000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore;">
       <created>1650423866978</created>
@@ -150,7 +158,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650459796213</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="order">
+      <created>1650464300620</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650464300620</updated>
+    </task>
+    <task id="LOCAL-00005" summary="eureka">
+      <created>1650508466938</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650508466938</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +194,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gitignore;" />
     <MESSAGE value="payment" />
-    <option name="LAST_COMMIT_MESSAGE" value="payment" />
+    <MESSAGE value="order" />
+    <MESSAGE value="eureka" />
+    <option name="LAST_COMMIT_MESSAGE" value="eureka" />
   </component>
 </project>
