@@ -23,9 +23,13 @@ import java.util.List;
 @RequestMapping("consumer")
 public class OrderController {
 
-    public static final String PAYMENT_URL = "http://localhost:8001";
+//    public static final String PAYMENT_URL = "http://localhost:8001";
 
-//    public static final String PAYMENT_URL = "http://CLOUD-PAYMENT-SERVICE";
+    /**
+     * Eureka 上生产者的服务名。
+     * 同时在 restTemplate 配置上加上 @LoadBalanced 注解，负载均衡请求。
+     * */
+    public static final String PAYMENT_URL = "http://CLOUD-PAYMENT-SERVICE";
 
     @Resource
     private RestTemplate restTemplate;
@@ -84,11 +88,9 @@ public class OrderController {
     @GetMapping(value = "/payment/lb")
     public String getPaymentLB() {
         List<ServiceInstance> instances = discoveryClient.getInstances("CLOUD-PAYMENT-SERVICE");
-
         if (instances == null || instances.isEmpty()) {
             return null;
         }
-
         // 调用自定义的负载均衡策略
         ServiceInstance serviceInstance = myLoadBalancer.instances(instances);
         URI uri = serviceInstance.getUri();
