@@ -87,6 +87,7 @@ public class OrderController {
      */
     @GetMapping(value = "/payment/lb")
     public String getPaymentLB() {
+        // 获取注册中心上服务名为 CLOUD-PAYMENT-SERVICE 的实例
         List<ServiceInstance> instances = discoveryClient.getInstances("CLOUD-PAYMENT-SERVICE");
         if (instances == null || instances.isEmpty()) {
             return null;
